@@ -9,7 +9,7 @@
       <content>
         <Button
          id="helloDialogButton"
-         icon="sap-icon://face"
+         icon="sap-icon://biometric-face"
          text="{i18n>openDialogButtonText}"
          press=".onOpenDialog"
          class="sapUiSmallMarginEnd"/>

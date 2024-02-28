@@ -21,6 +21,11 @@ sap.ui.define([
         });
     
         this.pDialog.then((oDialog) => oDialog.open());
+    },
+
+    onCloseDialog() {
+      
+        this.byId("helloDialog").close();
     }
     });
  });
